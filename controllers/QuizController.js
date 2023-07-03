@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose')
+const fs = require('fs')
 const path = require('path');
 const Quiz = require('../models/Quiz');
 
@@ -31,11 +32,11 @@ exports.uploadQuiz = async function (req, res) {
     }
 };
 
-exports.getQuiz = async function (req, res) {
-  const quizId = req.params.id;
+exports.getUserQuiz = async function (req, res) {
+  const quizId = req.body.id;
+  console.log(quizId)
   try {
     const quiz = await Quiz.findById(quizId);
-
     if (!quiz) {
       return res.status(404).json({ message: 'Quiz not found' });
     }
@@ -46,16 +47,44 @@ exports.getQuiz = async function (req, res) {
   }
 }
 
-exports.getAllQuizzes = async function (req, res) {
+exports.getUserQuizNames = async function (req, res) {
   try {
-    // Fetch all quizzes from the database
     const quizzes = await Quiz.find();
-    res.json(quizzes);
+    const idAndName = []
+    quizzes.forEach((quiz) => {
+      idAndName.push({id: quiz.id, name: quiz.title})
+    })
+    res.send(idAndName);
   } catch (error) {
     console.error('Error fetching quizzes:', error);
     res.sendStatus(500);
   }
 }
+
+exports.getOfficialQuizNames = async function (req,res) {
+  const directory = './quizzes'
+  fs.readdir(directory, (err, files) => {
+    if (err) {
+      console.error('Error reading directory:', err);
+      res.status(500).send('Error reading directory');
+      return;
+    }
+    res.json({ files });
+  });
+}
+
+exports.getOfficialQuiz = async function(req,res) {
+  const directory = '../quizzes'
+  const filename = req.query.filename;
+  const filePath = path.join(__dirname, directory, filename); 
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading file:', err);
+      return;
+    }
+    res.send(data);
+  });
+} 
 
 
 exports.logRequest = async function (req, res) {

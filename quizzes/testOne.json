@@ -1,0 +1,161 @@
+{
+"title": "1st, 2nd and 3rd Conditional Quiz",
+"questions": [
+{
+"prompt": "If I would have studied harder, I would have passed the exam.",
+"answer": "If I had...",
+"type": "normal"
+},
+{
+"prompt": "If she had knew the answer, she would have told us.",
+"answer": "If she had known",
+"type": "normal"
+},
+{
+"prompt": "If he would have arrived on time, we would have started the meeting.",
+"answer": "If he had...",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If you had studied more, ________________.'",
+"answer": "you would have passed the exam",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If we had trained harder, ________________.'",
+"answer": "maybe we would have won",
+"type": "normal"
+},
+{
+"prompt": "Correct this sentence: 'If I were you, I not tell him.'",
+"answer": "If I were you, I wouldn't tell him.",
+"type": "normal"
+},
+{
+"prompt": "Correct this sentence: 'If I had infinite money, I buy every game.'",
+"answer": "If I had infinite money, I would buy every game.",
+"type": "normal"
+},
+{
+"prompt": "Correct this sentence: 'If I have time, I join the party.'",
+"answer": "If I have time, I will join the party.",
+"type": "normal"
+},
+{
+"prompt": "Correct this sentence: 'If only I'd ran faster.'",
+"answer": "If only I had run faster.",
+"type": "normal"
+},
+{
+"prompt": "Correct this sentence: 'I wish I'd never showed you my homework'",
+"answer": "I wish I had never shown you my homework.",
+"type": "normal"
+},
+{
+"prompt": "If I were you, I ________________ (not tell) him.",
+"answer": "wouldn't tell",
+"type": "normal"
+},
+{
+"prompt": "If I had infinite money, I ________________ (buy) every game.",
+"answer": "would buy",
+"type": "normal"
+},
+{
+"prompt": "If I have time, I ________________ (join) the party.",
+"answer": "will join",
+"type": "normal"
+},
+{
+"prompt": "If only I had known about the party, ________________ (I go).",
+"answer": "I would have gone",
+"type": "normal"
+},
+{
+"prompt": "If you had asked me, ________________ (I help) you.",
+"answer": "I would have helped",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If she hadn't missed the bus, ________________.'",
+"answer": "she would have arrived on time",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If we had known the answer, ________________.'",
+"answer": "we would have told you",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If it wasn't raining, ________________.'",
+"answer": "we could go for a walk",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If he studied harder, ________________.'",
+"answer": "he would get better grades",
+"type": "normal"
+},
+{
+"prompt": "Complete the sentence: 'If I see her, ________________.'",
+"answer": "I will say hello",
+"type": "normal"
+},
+{
+"prompt": "If she would have known the answer, she ________________ (tell) us.",
+"answer": "would have told",
+"type": "normal"
+},
+{
+"prompt": "If we would have trained harder, we ________________ (win) the game.",
+"answer": "would have won",
+"type": "normal"
+},
+{
+"prompt": "If you would have asked me, I ________________ (help) you.",
+"answer": "would have helped",
+"type": "normal"
+},
+{
+"prompt": "If he would have arrived on time, we ________________ (start) the meeting.",
+"answer": "would have started",
+"type": "normal"
+},
+{
+"prompt": "If you ________________ (study) more, you would have passed the exam.",
+"answer": "had studied",
+"type": "normal"
+},
+{
+"prompt": "If we ________________ (train) harder, maybe we would have won.",
+"answer": "had trained",
+"type": "normal"
+},
+{
+"prompt": "If you ________________ (ask) me, I would have helped you.",
+"answer": "had asked",
+"type": "normal"
+},
+{
+"prompt": "If he ________________ (arrive) on time, we would have started the meeting.",
+"answer": "had arrived",
+"type": "normal"
+},
+{
+"prompt": "If you ________________ (study) more, you ________________ (pass) the exam.",
+"answer": "had studied, would have passed",
+"type": "normal"
+},
+{
+"prompt": "If we ________________ (train) harder, maybe we ________________ (win).",
+"answer": "had trained, would have won",
+"type": "normal"
+},
+{
+"prompt": "What is the difference between a first conditional and a second conditional sentence?",
+"answer": "First conditional refers to a possible future event, while second conditional refers to an unlikely or hypothetical situation in the present or future.",
+"type": "normal"
+}
+]
+}
+
