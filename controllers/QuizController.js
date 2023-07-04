@@ -33,7 +33,7 @@ exports.uploadQuiz = async function (req, res) {
 };
 
 exports.getUserQuiz = async function (req, res) {
-  const quizId = req.body.id;
+  const quizId = req.query.id;
   try {
     const quiz = await Quiz.findById(quizId);
     if (!quiz) {
@@ -74,7 +74,7 @@ exports.getOfficialQuizNames = async function (req,res) {
 
 exports.getOfficialQuiz = async function(req,res) {
   const directory = '../quizzes'
-  const filename = req.body.filename;
+  const filename = req.query.filename;
   const filePath = path.join(__dirname, directory, filename); 
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
