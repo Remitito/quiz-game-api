@@ -5,7 +5,7 @@ const path = require('path');
 const Quiz = require('../models/Quiz');
 
 exports.uploadQuiz = async function (req, res) {
-  const title = req.body.title
+  const title = req.body.title;
   const questions = req.body.questions.map((questionData, index) => {
     return {
       prompt: questionData.prompt,
@@ -14,22 +14,24 @@ exports.uploadQuiz = async function (req, res) {
     };
   });
 
-    try {
-      // Create a new Quiz document
-      const newQuiz = new Quiz({
-        title,
-        questions
-      });
+  try {
+    // Create a new Quiz document
+    const newQuiz = new Quiz({
+      title,
+      questions,
+    });
 
-      // Save the quiz to MongoDB
-      await newQuiz.save();
+    // Save the quiz to MongoDB
+    const savedQuiz = await newQuiz.save();
 
-      console.log('Quiz saved successfully');
-      res.sendStatus(200);
-    } catch (error) {
-      console.error('Error saving quiz:', error);
-      res.sendStatus(500);
-    }
+    console.log('Quiz saved successfully');
+    console.log('Quiz ID:', savedQuiz._id); // Access the saved quiz's object ID
+
+    res.status(200).json({ quizId: savedQuiz._id }); // Return the quiz ID as a response
+  } catch (error) {
+    console.error('Error saving quiz:', error);
+    res.sendStatus(500);
+  }
 };
 
 exports.getUserQuiz = async function (req, res) {
