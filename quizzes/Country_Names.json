@@ -1,0 +1,106 @@
+{
+    "title": "Chinese Country Names to English Countries Quiz",
+    "questions": [
+      {
+        "prompt": "Translate '中国'.",
+        "answer": "China",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '美国'.",
+        "answer": "USA",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '英国'.",
+        "answer": "UK",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '法国'.",
+        "answer": "France",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '德国'.",
+        "answer": "Germany",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '日本'.",
+        "answer": "Japan",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '韩国'.",
+        "answer": "South Korea",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '加拿大'.",
+        "answer": "Canada",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '巴西'.",
+        "answer": "Brazil",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '澳大利亚'.",
+        "answer": "Australia",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '印度'.",
+        "answer": "India",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '俄罗斯'.",
+        "answer": "Russia",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '墨西哥'.",
+        "answer": "Mexico",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '埃及'.",
+        "answer": "Egypt",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '南非'.",
+        "answer": "South Africa",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '意大利'.",
+        "answer": "Italy",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '西班牙'.",
+        "answer": "Spain",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '阿根廷'.",
+        "answer": "Argentina",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '沙特阿拉伯'.",
+        "answer": "Saudi Arabia",
+        "type": "normal"
+      },
+      {
+        "prompt": "Translate '泰国'.",
+        "answer": "Thailand",
+        "type": "normal"
+      }
+    ]
+  }
+  

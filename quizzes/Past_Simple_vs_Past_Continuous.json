@@ -1,0 +1,76 @@
+{
+    "title": "Past Simple vs. Past Continuous Quiz",
+    "questions": [
+      {
+        "prompt": "Complete the sentence: 'Last night, while I _______ (watch) TV, the phone _______ (ring).'",
+        "answer": "was watching, rang",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'She _______ (study) when the lights _______ (go) out.'",
+        "answer": "was studying, went",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'Yesterday at this time, they _______ (have) dinner.'",
+        "answer": "were having",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'He _______ (read) a book while she _______ (cook) dinner.'",
+        "answer": "was reading, was cooking",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'When I _______ (arrive) at the party, everyone _______ (dance).'",
+        "answer": "arrived, was dancing",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'While they _______ (play) in the park, it _______ (start) to rain.'",
+        "answer": "were playing, started",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'He _______ (work) late at the office when the phone _______ (ring).'",
+        "answer": "was working, rang",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'At 3 PM yesterday, I _______ (do) my homework.'",
+        "answer": "was doing",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'She _______ (walk) her dog while it _______ (rain).'",
+        "answer": "was walking, was raining",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'When the accident _______ (happen), I _______ (drive) to work.'",
+        "answer": "happened, was driving",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'She _______ (study) while he _______ (watch) TV.'",
+        "answer": "was studying, was watching",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'We _______ (have) dinner when the guests _______ (arrive).'",
+        "answer": "were having, arrived",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'Last night, while we _______ (watch) a movie, the power _______ (go) out.'",
+        "answer": "were watching, went",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'While she _______ (cook) dinner, he _______ (clean) the living room.'",
+        "answer": "was cooking, was cleaning",
+        "type": "normal"
+      }
+    ]
+  }
+  

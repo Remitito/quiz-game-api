@@ -1,0 +1,86 @@
+{
+    "title": "First Conditional vs. Second Conditional Quiz",
+    "questions": [
+      {
+        "prompt": "Complete the sentence: 'If it _______ (rain) tomorrow, we _______ (stay) at home.'",
+        "answer": "rains, will stay",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If I _______ (win) the lottery, I _______ (buy) a new car.'",
+        "answer": "win, will buy",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If she _______ (study) hard, she _______ (pass) the exam.'",
+        "answer": "studies, will pass",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If they _______ (arrive) late, we _______ (start) the meeting without them.'",
+        "answer": "arrive, will start",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If you _______ (practice) more, you _______ (improve) your skills.'",
+        "answer": "practice, will improve",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If he _______ (miss) the bus, he _______ (be) late for work.'",
+        "answer": "misses, will be",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If we _______ (not find) the keys, we _______ (have to) call a locksmith.'",
+        "answer": "don't find, will have to",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If she _______ (not come) to the party, I _______ (be) disappointed.'",
+        "answer": "doesn't come, will be",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If he _______ (get) the job, he _______ (start) next Monday.'",
+        "answer": "gets, will start",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'If it _______ (snow) tomorrow, we _______ (build) a snowman.'",
+        "answer": "snows, will build",
+        "type": "normal"
+      },
+      {
+        "prompt": "Choose the correct option: 'If I _______ (have) enough money, I _______ (travel) around the world.'",
+        "answer": "have, will travel",
+        "type": "multiple-choice",
+        "options": ["have, will travel", "had, would travel", "have, would travel", "had, will travel"]
+      },
+      {
+        "prompt": "Choose the correct option: 'If she _______ (not finish) her work on time, she _______ (get) into trouble.'",
+        "answer": "doesn't finish, will get",
+        "type": "multiple-choice",
+        "options": ["doesn't finish, will get", "didn't finish, would get", "doesn't finish, would get", "didn't finish, will get"]
+      },
+      {
+        "prompt": "Choose the correct option: 'If we _______ (not take) the train, we _______ (have) to walk.'",
+        "answer": "don't take, will have",
+        "type": "multiple-choice",
+        "options": ["don't take, will have", "didn't take, would have", "don't take, would have", "didn't take, will have"]
+      },
+      {
+        "prompt": "Choose the correct option: 'If he _______ (not arrive) soon, we _______ (start) the meeting without him.'",
+        "answer": "doesn't arrive, will start",
+        "type": "multiple-choice",
+        "options": ["doesn't arrive, will start", "didn't arrive, would start", "doesn't arrive, would start", "didn't arrive, will start"]
+      },
+      {
+        "prompt": "Choose the correct option: 'If you _______ (not study) for the exam, you _______ (fail) it.'",
+        "answer": "don't study, will fail",
+        "type": "multiple-choice",
+        "options": ["don't study, will fail", "didn't study, would fail", "don't study, would fail", "didn't study, will fail"]
+      }
+    ]
+  }
+  

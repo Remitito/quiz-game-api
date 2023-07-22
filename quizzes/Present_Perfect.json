@@ -1,0 +1,56 @@
+{
+    "title": "Present Perfect Tense Quiz",
+    "questions": [
+      {
+        "prompt": "Complete the sentence: 'She _______ (visit) the museum yesterday.'",
+        "answer": "has visited",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'I _______ (see) that movie three times already.'",
+        "answer": "have seen",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'They _______ (not finish) their project yet.'",
+        "answer": "have not finished",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: '_______ you ever _______ (try) sushi?'",
+        "answer": "Have, tried",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'He _______ (live) in this city for five years now.'",
+        "answer": "has lived",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'I _______ (not see) him since last week.'",
+        "answer": "have not seen",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'She _______ (read) that book already.'",
+        "answer": "has read",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'We _______ (travel) to Europe many times.'",
+        "answer": "have traveled",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: '_______ they _______ (finish) their homework yet?'",
+        "answer": "Have, finished",
+        "type": "normal"
+      },
+      {
+        "prompt": "Complete the sentence: 'He _______ (not eat) breakfast this morning.'",
+        "answer": "has not eaten",
+        "type": "normal"
+      }
+    ]
+  }
+  
