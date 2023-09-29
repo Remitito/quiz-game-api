@@ -5,7 +5,6 @@ const cors = require('cors');
 const helmet = require('helmet');
 require('dotenv').config();
 
-// Create Express app
 const app = express();
 
 // Middleware
@@ -18,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const routes = require('./routes');
 app.use('/', routes)
 
-// Connect to MongoDB Atlas
+// MongoDB Atlas
 mongoose
   .connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
@@ -28,7 +27,8 @@ mongoose
     console.error('Error connecting to MongoDB:', error);
   });
 
-// Start the server
+// start
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

@@ -51,50 +51,24 @@ exports.getUserQuiz = async function (req, res) {
 exports.getUserQuizNames = async function (req, res) {
   try {
     const quizzes = await Quiz.find();
-    const idAndName = []
+    const idAndTitle = [] // id for loading the quiz, title for showing the list of quizzes
     quizzes.forEach((quiz) => {
-      idAndName.push({id: quiz.id, name: quiz.title})
+      idAndTitle.push({id: quiz.id, name: quiz.title})
     })
-    res.send(idAndName);
+    res.send(idAndTitle);
   } catch (error) {
     console.error('Error fetching quizzes:', error);
     res.sendStatus(500);
   }
 }
 
-exports.getOfficialQuizNames = async function (req,res) {
-  const directory = './quizzes'
-  fs.readdir(directory, (err, files) => {
-    if (err) {
-      console.error('Error reading directory:', err);
-      res.status(500).send('Error reading directory');
-      return;
-    }
-    res.json({ files });
-  });
-}
-
-exports.getOfficialQuiz = async function(req,res) {
-  const directory = '../quizzes'
-  const filename = req.query.filename;
-  const filePath = path.join(__dirname, directory, filename); 
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading file:', err);
-      return;
-    }
-    res.send(data);
-  });
-} 
-
-
-exports.logRequest = async function (req, res) {
-  let form = new multiparty.Form()
-  form.parse(req, function(err, fields, files) {
-    Object.keys(fields).forEach(function(name) {
-      const value = fields[name][0]
-      console.log('got field named ' + name + 'with value' + value);
-      });
-  });
-  res.sendStatus(200); // Send a response indicating success
-}
+// exports.logRequest = async function (req, res) {
+//   let form = new multiparty.Form()
+//   form.parse(req, function(err, fields, files) {
+//     Object.keys(fields).forEach(function(name) {
+//       const value = fields[name][0]
+//       console.log('got field named ' + name + 'with value' + value);
+//       });
+//   });
+//   res.sendStatus(200); // Send a response indicating success
+// }
