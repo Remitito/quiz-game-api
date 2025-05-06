@@ -4,8 +4,7 @@ This is the back end of the my quiz game, which was made as an alternative to si
 
 **Live Version**
 
-The live version of the full-stack app can be found at: https://inquizitive-l7wp.onrender.com
-
+_The live deployment has been removed as the website is no longer used since I quit teaching._
 **Client / front end**
 
 Inquizitive's front end repo can be found here: https://github.com/Remitito/quiz-game-client
